@@ -15,7 +15,8 @@
   --link-color: #035fe6;
   --link-hover-color: #136ff6;
   --background-color: white;
-  --background-color-yellow: #eded1e;
+  --background-color-yellow: #fff866;
+  --background-color-yellow-fade: linear-gradient(90deg, #bd9768 0%, #fff866 48%, #95dd40 100%);
   --light-color: #eee;
   --dark-color: #ccc;
   --text-color: black;
@@ -208,4 +209,8 @@ main .section {
 main .section.light,
 main .section.highlight {
   background-color: var(--light-color);
+}
+
+main .section.yellow-fade {
+  background-color: var(--background-color-yellow-fade);
 }
