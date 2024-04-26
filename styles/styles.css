@@ -212,5 +212,5 @@ main .section.highlight {
 }
 
 main .section.yellow-fade {
-  background-color: var(--background-color-yellow-fade);
+  background: var(--background-color-yellow-fade);
 }
